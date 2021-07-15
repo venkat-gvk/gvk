@@ -49,7 +49,17 @@ const AboutMe = () => {
               free. Yes I know, Naruto is nerfed in Boruto.
             </p>
             <br />
-            <p>Feel free to contact me.</p>
+            <p>
+              Feel free to{" "}
+              <a
+                className={`${
+                  darkMode ? "hover:text-gray-300" : "hover:text-gray-800"
+                }`}
+                href="#contact">
+                contact me
+              </a>
+              .
+            </p>
           </div>
         </div>
       </div>

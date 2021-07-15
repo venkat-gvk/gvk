@@ -72,7 +72,7 @@ const Header = () => {
           sm:p-4 sm:w-full sm:col-span-2 sm:ml-40 lg:ml-56 sm:mb-2`}>
         <li
           className={`${
-            darkMode ? "hover:text-gray-300" : "hover:text-gray-200"
+            darkMode ? "hover:text-gray-300" : "hover:text-gray-800"
           } flex-shrink-0`}>
           <a className="hover:border-b-2" href="#about_me">
             ABOUT ME
