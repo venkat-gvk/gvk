@@ -14,21 +14,21 @@ const Header = () => {
       `}>
       {/* Mobile version */}
       <main
-        className="h-32 flex items-center justify-center space-x-8 
+        className="h-32 flex items-center justify-center space-x-5 sm:space-x-8 
         sm:order-1 sm:space-x-32">
         <div className="flex flex-col items-center justify-between space-y-4 sm:hidden">
           <h2
             className={`${
               darkMode ? "text-white" : "text-gray-700"
-            } font-bold text-center text-2xl tracking-widest transition-all duration-500`}>
+            } font-bold text-center text-xl sm:text-2xl tracking-widest transition-all duration-500`}>
             VENKATAKRISHNAN G
           </h2>
           <div
             className={`${
               darkMode ? "text-pink-500" : "text-gray-700"
-            } transition-all duration-500`}>
+            } transition-all duration-500 text-sm sm:text-2xl `}>
             <span>Software Developer</span>
-            <span> </span>
+            <span> | </span>
             <span>Video Editor</span>
           </div>
         </div>

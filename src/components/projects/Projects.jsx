@@ -15,7 +15,7 @@ const Projects = () => {
       <div
         className="grid grid-cols-1 ml-10 mr-10 md:grid-cols-2 lg:grid-cols-3 
             justify-items-center gap-6 items-center p-8
-            lg:max-w-6xl sm:mx-auto">
+            sm:w-84p lg:max-w-6xl sm:mx-auto">
         <ProjectList />
       </div>
     </section>

@@ -13,7 +13,7 @@ const Skills = () => {
         } sm:pb-2 `}>
         Skills
       </h2>
-      <div className="grid grid-row-1 sm:grid-cols-2 p-1 mt-4 lg:mt-8 sm:mx-auto">
+      <div className="grid grid-row-1 md:grid-cols-2 p-1 mt-4 lg:mt-8 sm:mx-auto">
         {/* Lang */}
         <div
           className={`relative flex flex-col justify-center items-center space-y-4 text-left

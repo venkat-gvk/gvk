@@ -11,7 +11,7 @@ const Footer = () => {
         darkMode ? "bg-gray-900" : "bg-white"
       } transition-all duration-500`}>
       <main
-        className="h-32 shadow-lg flex items-center justify-center 
+        className="h-28 shadow-lg flex items-center justify-center 
         sm:justify-around sm:max-w-6xl sm:mx-auto space-x-10 sm:space-x-4 sm:h-22 sm:p-8 md:space-x-80 lg:space-x-10">
         <div className="flex flex-col items-center justify-between space-y-4 text-sm">
           <div

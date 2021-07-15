@@ -10,8 +10,9 @@ const ProjectListRender = ({ project }) => {
     darkMode
       ? "bg-gray-900 text-white border-pink-500"
       : "bg-white border-blue-500"
-  } rounded w-full md:w-9/12 lg:w-full h-full border-b-2 border-t-2 
-  text-center text-lg p-4 shadow-lg transition-all duration-500`;
+  } rounded md:w-full
+    border-b-2 border-t-2 
+    text-center text-sm w-72 h-full sm:text-lg p-4 shadow-lg transition-all duration-500`;
 
   return (
     <div className={card}>

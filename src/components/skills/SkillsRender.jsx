@@ -12,7 +12,7 @@ const SkillsRender = ({ what }) => {
             <div className="p-2 space-y-1" key={index}>
               <p>{lang}</p>
               <div
-                className={`w-80 lg:w-96 shadow rounded ${
+                className={`w-72 md:w-80 xl:w-96 shadow rounded ${
                   darkMode ? "bg-pink-100" : "bg-blue-100"
                 } `}>
                 <div
@@ -26,7 +26,7 @@ const SkillsRender = ({ what }) => {
             <div className="p-2 space-y-1" key={index}>
               <p>{tech}</p>
               <div
-                className={`w-80 lg:w-96 shadow rounded ${
+                className={`w-72 md:w-80 xl:w-96 shadow rounded ${
                   darkMode ? "bg-pink-100" : "bg-blue-100"
                 } `}>
                 <div

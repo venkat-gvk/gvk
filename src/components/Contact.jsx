@@ -50,9 +50,9 @@ const Contact = () => {
                  darkMode
                    ? "border-pink-500 focus:border-pink-800 bg-gray-100"
                    : "border-blue-500 focus:border-blue-800"
-               } w-72 text-black`;
+               } w-60 md:w-72 text-black text-sm sm:text-md`;
   return (
-    <section className="p-2 pb-3 min-h-screen" id="contact">
+    <section className="p-2 pb-3 md:mb-5" id="contact">
       <h2
         className={`text-3xl uppercase text-center sm:mt-4 transition-all duration-500 ${
           darkMode ? "text-pink-500" : "text-gray-700"
@@ -64,15 +64,15 @@ const Contact = () => {
           darkMode
             ? "text-white border-pink-500 shadow-2xl"
             : "border-blue-500 shadow"
-        } mx-auto mt-10 p-4 rounded border-t-2 border-b-2 w-84
-          sm:w-11/12 md:w-85p
+        } mx-auto mt-10 p-4 rounded border-t-2 border-b-2 w-72
+         sm:w-11/12 md:w-85p
         `}>
         <form
           onSubmit={onSubmit}
           className="flex flex-col justify-center items-center space-y-8 md:mx-auto">
           <div
             className={`${didSend && "opacity-50"} transition-all duration-500 
-              sm:w-11/12 md:w-full md:text-center md:relative
+              sm:w-11/12 md:w-full md:text-center md:relative sm:mt-2
             `}>
             <label
               htmlFor="name"
