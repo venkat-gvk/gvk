@@ -16,9 +16,10 @@ const SkillsRender = ({ what }) => {
                   darkMode ? "bg-pink-100" : "bg-blue-100"
                 } `}>
                 <div
-                  className={`w-${level} h-2 rounded ${
+                  className={`h-2 rounded ${
                     darkMode ? "bg-pink-500" : "bg-blue-400"
-                  } transition-all`}></div>
+                  } transition-all`}
+                  style={{ width: `${level}%` }}></div>
               </div>
             </div>
           ))
@@ -30,9 +31,10 @@ const SkillsRender = ({ what }) => {
                   darkMode ? "bg-pink-100" : "bg-blue-100"
                 } `}>
                 <div
-                  className={`w-${level} h-2 rounded ${
+                  className={`h-2 rounded ${
                     darkMode ? "bg-pink-500" : "bg-blue-400"
-                  } transition-all`}></div>
+                  } transition-all`}
+                  style={{ width: `${level}%` }}></div>
               </div>
             </div>
           ))}

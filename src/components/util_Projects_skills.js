@@ -41,16 +41,16 @@ export const projects = [
 ];
 
 export const languages = [
-  { lang: "C", level: "11/12" },
-  { lang: "C++", level: "10/12" },
-  { lang: "Java", level: "8/12" },
-  { lang: "JavaScript", level: "9/12" },
-  { lang: "Python", level: "8/12" },
+  { lang: "C", level: "91.666667" },
+  { lang: "C++", level: "83.333333" },
+  { lang: "Java", level: "66.666667" },
+  { lang: "JavaScript", level: "75" },
+  { lang: "Python", level: "66.666667" },
 ];
 export const technologies = [
-  { tech: "React JS", level: "10/12" },
-  { tech: "Node JS", level: "9/12" },
-  { tech: "Tailwind CSS", level: "10/12" },
-  { tech: "Selenium", level: "8/12" },
-  { tech: "MongoDB", level: "8/12" },
+  { tech: "React JS", level: "83.333333" },
+  { tech: "Node JS", level: "75" },
+  { tech: "Tailwind CSS", level: "83.333333" },
+  { tech: "Selenium", level: "66.666667" },
+  { tech: "MongoDB", level: "66.666667" },
 ];
