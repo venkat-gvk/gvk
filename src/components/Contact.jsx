@@ -37,10 +37,10 @@ const Contact = () => {
     e.preventDefault();
     setDidSend(!didSend);
     send(
-      "service_cvk2fpv",
-      "template_t2ersok",
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       details,
-      "user_Jc0unU7hOldV9HvPXpLbG"
+      process.env.REACT_APP_USER_ID
     ).catch((err) => console.error(err));
     setDetails(detailObj);
   };
@@ -50,7 +50,7 @@ const Contact = () => {
                  darkMode
                    ? "border-pink-500 focus:border-pink-800 bg-gray-100"
                    : "border-blue-500 focus:border-blue-800"
-               } w-60 md:w-72 text-black text-sm sm:text-md`;
+               } w-60 md:w-72 text-sm text-black font-semibold sm:text-md`;
   return (
     <section className="p-2 pb-3 md:mb-5" id="contact">
       <h2
