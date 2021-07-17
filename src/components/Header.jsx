@@ -38,7 +38,7 @@ const Header = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className={`h-8 w-8 text-yellow-300 hover:text-yellow-500 ${
-                darkMode && "hidden"
+                !darkMode && "hidden"
               }`}
               viewBox="0 0 20 20"
               fill="currentColor">
@@ -52,7 +52,7 @@ const Header = () => {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className={`h-8 w-8 text-pink-600 hover:text-pink-800 ${
-                !darkMode && "hidden"
+                darkMode && "hidden"
               }`}
               viewBox="0 0 20 20"
               fill="currentColor">
