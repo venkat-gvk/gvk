@@ -37,7 +37,7 @@ const Header = () => {
             {/* sun */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`h-8 w-8 text-yellow-300 hover:text-yellow-500 ${
+              className={`h-7 w-7 sm:h-8 sm:w-8 text-yellow-300 hover:text-yellow-500 ${
                 !darkMode && "hidden"
               }`}
               viewBox="0 0 20 20"
@@ -51,7 +51,7 @@ const Header = () => {
             {/* moon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className={`h-8 w-8 text-pink-600 hover:text-pink-800 ${
+              className={`h-7 w-7 sm:h-8 sm:w-8 text-pink-600 hover:text-pink-800 ${
                 darkMode && "hidden"
               }`}
               viewBox="0 0 20 20"
