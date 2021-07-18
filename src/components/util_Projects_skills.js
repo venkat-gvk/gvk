@@ -34,7 +34,7 @@ export const projects = [
     name: "Sorting Visualizer",
     link: "https://venkat-gvk.github.io/sorting-visualizer/",
     tech: "React JS",
-    description: `Visualize alogs such as Bubble, Insertion, Merge, Quick and
+    description: `Visualize algos such as Bubble, Insertion, Merge, Quick and
               Selection Sort. Has random inputs and speed control to adjust the
               array size and animation`,
   },
