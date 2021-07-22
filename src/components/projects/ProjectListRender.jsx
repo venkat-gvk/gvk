@@ -24,7 +24,8 @@ const ProjectListRender = ({ project }) => {
                 ? "text-pink-500 hover:text-pink-600"
                 : "text-purple-600 hover:text-purple-800"
             } `}
-            href={link}>
+            href={link}
+            target="_blank">
             {name}
           </a>
         </p>
