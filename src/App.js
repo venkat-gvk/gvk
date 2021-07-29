@@ -16,14 +16,14 @@ function App() {
   };
 
   useEffect(() => {
-    const mode = localStorage.getItem("mode");
+    const mode = localStorage.getItem("gvk_portfolio_theme_mode");
     mode && mode === "dark" ? setDarkMode(true) : setDarkMode(false);
   }, []);
 
   useEffect(() => {
     darkMode
-      ? localStorage.setItem("mode", "dark")
-      : localStorage.setItem("mode", "light");
+      ? localStorage.setItem("gvk_portfolio_theme_mode", "dark")
+      : localStorage.setItem("gvk_portfolio_theme_mode", "light");
   }, [darkMode]);
 
   return (
