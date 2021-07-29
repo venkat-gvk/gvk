@@ -25,7 +25,8 @@ const ProjectListRender = ({ project }) => {
                 : "text-purple-600 hover:text-purple-800"
             } `}
             href={link}
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             {name}
           </a>
         </p>

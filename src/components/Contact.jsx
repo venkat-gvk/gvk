@@ -43,13 +43,14 @@ const Contact = () => {
       process.env.REACT_APP_USER_ID
     ).catch((err) => console.error(err));
     setDetails(detailObj);
+    console.log(details);
   };
 
   const formCSS = `outline-none rounded p-2 mt-2 border md:w-10/12 sm:w-11/12
                ${
                  darkMode
-                   ? "border-pink-500 focus:border-pink-800 bg-gray-100"
-                   : "border-blue-500 focus:border-blue-800"
+                   ? "focus:border-pink-500 bg-gray-100"
+                   : "focus:border-blue-500"
                } w-60 md:w-72 text-sm text-black font-semibold sm:text-md`;
   return (
     <section className="p-2 pb-3 md:mb-5" id="contact">
@@ -86,7 +87,7 @@ const Contact = () => {
               id="name"
               type="text"
               name="name"
-              required="true"
+              required={true}
               disabled={didSend && true}
               value={details.name}
               onChange={handleChange}
@@ -106,7 +107,7 @@ const Contact = () => {
             <input
               className={formCSS}
               type="email"
-              required="true"
+              required={true}
               name="email_id"
               id="email_id"
               disabled={didSend && true}
@@ -129,7 +130,7 @@ const Contact = () => {
             <textarea
               className={`${formCSS} h-40 resize-y`}
               id="message"
-              required="true"
+              required={true}
               type="text"
               name="message"
               disabled={didSend && true}
