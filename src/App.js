@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -15,7 +15,7 @@ function App() {
     setDarkMode(!darkMode);
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const mode = localStorage.getItem("gvk_portfolio_theme_mode");
     mode && mode === "dark" ? setDarkMode(true) : setDarkMode(false);
   }, []);
