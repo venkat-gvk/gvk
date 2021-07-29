@@ -43,7 +43,6 @@ const Contact = () => {
       process.env.REACT_APP_USER_ID
     ).catch((err) => console.error(err));
     setDetails(detailObj);
-    console.log(details);
   };
 
   const formCSS = `outline-none rounded p-2 mt-2 border md:w-10/12 sm:w-11/12
