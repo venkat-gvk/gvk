@@ -19,10 +19,10 @@ const ProjectListRender = ({ project }) => {
       <div>
         <p className="p-2">
           <a
-            className={`font-semibold uppercase transition-all duration-500 ${
+            className={`font-semibold uppercase ${
               darkMode
-                ? "text-pink-500 hover:text-pink-600"
-                : "text-purple-600 hover:text-purple-800"
+                ? "text-pink-500 hover:text-pink-600 hover:border-b hover:border-pink-600"
+                : "text-purple-600 hover:text-purple-800  hover:border-b hover:border-purple-800"
             } `}
             href={link}
             target="_blank"
