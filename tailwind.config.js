@@ -18,6 +18,7 @@ module.exports = {
       borderWidth: ["hover", "focus"],
       transitionDuration: ["hover", "focus"],
       cursor: ["hover", "focus"],
+      transitionProperty: ["hover", "focus"],
     },
   },
   plugins: [],
