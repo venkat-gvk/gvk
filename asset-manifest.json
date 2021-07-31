@@ -5,18 +5,18 @@
     "main.js.map": "/gvk/static/js/main.9a38b451.chunk.js.map",
     "runtime-main.js": "/gvk/static/js/runtime-main.da1db700.js",
     "runtime-main.js.map": "/gvk/static/js/runtime-main.da1db700.js.map",
-    "static/js/2.2ab977c7.chunk.js": "/gvk/static/js/2.2ab977c7.chunk.js",
-    "static/js/2.2ab977c7.chunk.js.map": "/gvk/static/js/2.2ab977c7.chunk.js.map",
+    "static/js/2.dcde7b5e.chunk.js": "/gvk/static/js/2.dcde7b5e.chunk.js",
+    "static/js/2.dcde7b5e.chunk.js.map": "/gvk/static/js/2.dcde7b5e.chunk.js.map",
     "static/js/3.542831db.chunk.js": "/gvk/static/js/3.542831db.chunk.js",
     "static/js/3.542831db.chunk.js.map": "/gvk/static/js/3.542831db.chunk.js.map",
     "index.html": "/gvk/index.html",
     "static/css/main.7a6dedc4.chunk.css.map": "/gvk/static/css/main.7a6dedc4.chunk.css.map",
-    "static/js/2.2ab977c7.chunk.js.LICENSE.txt": "/gvk/static/js/2.2ab977c7.chunk.js.LICENSE.txt",
+    "static/js/2.dcde7b5e.chunk.js.LICENSE.txt": "/gvk/static/js/2.dcde7b5e.chunk.js.LICENSE.txt",
     "static/media/venkat.b82b623d.jpg": "/gvk/static/media/venkat.b82b623d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.da1db700.js",
-    "static/js/2.2ab977c7.chunk.js",
+    "static/js/2.dcde7b5e.chunk.js",
     "static/css/main.7a6dedc4.chunk.css",
     "static/js/main.9a38b451.chunk.js"
   ]
