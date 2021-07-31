@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "Simple Board",
+    link: "https://venkat-gvk.github.io/simpleboard/",
+    tech: "React JS",
+    description: `Simple whiteboard. It can draw shapes like Rectangle, Circle, Line, and Arrow. 
+                  Freehand drawing can also be done using various colors and sizes.`,
+  },
+  {
     name: "Amazon Price Tracker",
     link: "https://github.com/venkat-gvk/amazon-price-scraper",
     tech: "Python, Selenium",
