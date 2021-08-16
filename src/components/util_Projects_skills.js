@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: "Jitter",
+    link: "https://jitter.netlify.app",
+    tech: "React JS, tailwind, firebase, react-chat-engine",
+    description: `A simple chatting application where users can login using gmail or 
+            signup using any other email and chat with other users. Auth is handled by firebase`,
+  },
+  {
     name: "Simple Board",
     link: "https://venkat-gvk.github.io/simpleboard/",
     tech: "React JS",
