@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { ThemeContext } from "../App";
 
+import "aos/dist/aos.css";
+
 const Header = () => {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
 

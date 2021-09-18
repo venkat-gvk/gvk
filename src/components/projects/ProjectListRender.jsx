@@ -15,7 +15,7 @@ const ProjectListRender = ({ project }) => {
     text-center text-sm w-72 h-full sm:text-lg p-4 shadow-lg transition-all duration-500`;
 
   return (
-    <div className={card}>
+    <div className={card} data-aos="zoom-in">
       <div>
         <p className="p-2">
           <a

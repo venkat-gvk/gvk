@@ -2,11 +2,14 @@ import { useContext } from "react";
 import { ThemeContext } from "../../App";
 import ProjectList from "./ProjectList";
 
+import "aos/dist/aos.css";
+
 const Projects = () => {
   const { darkMode } = useContext(ThemeContext);
   return (
     <section id="projects">
       <p
+        data-aos="zoom-in"
         className={`${
           darkMode ? "text-pink-500" : "text-gray-700"
         } text-3xl uppercase text-center mt-7 transition-all duration-500`}>

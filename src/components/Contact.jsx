@@ -3,6 +3,9 @@ import { ThemeContext } from "../App";
 import { send } from "emailjs-com";
 import { v4 as uuidv4 } from "uuid";
 
+
+import "aos/dist/aos.css";
+
 const Contact = () => {
   const { darkMode } = useContext(ThemeContext);
 
@@ -52,7 +55,7 @@ const Contact = () => {
                    : "focus:border-blue-500"
                } w-60 md:w-72 text-sm text-black font-semibold sm:text-md`;
   return (
-    <section className="p-2 pb-3 md:mb-5" id="contact">
+    <section className="p-2 pb-3 md:mb-5" id="contact" data-aos="fade-right">
       <h2
         className={`text-3xl uppercase text-center sm:mt-4 transition-all duration-500 ${
           darkMode ? "text-pink-500" : "text-gray-700"

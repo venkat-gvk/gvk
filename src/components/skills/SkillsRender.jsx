@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { ThemeContext } from "../../App";
 import { languages, technologies } from "../util_Projects_skills";
 
+import "aos/dist/aos.css";
+
 const SkillsRender = ({ what }) => {
   const { darkMode } = useContext(ThemeContext);
 

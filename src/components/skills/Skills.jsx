@@ -1,4 +1,6 @@
 import { useContext } from "react";
+import "aos/dist/aos.css";
+
 import { ThemeContext } from "../../App";
 import SkillsRender from "./SkillsRender";
 
@@ -6,7 +8,10 @@ const Skills = () => {
   const { darkMode } = useContext(ThemeContext);
 
   return (
-    <section id="skills" className="p-2 pb-3 -mt-4 sm:mb-16 lg:mb-12 sm:mt-1">
+    <section
+      data-aos="zoom-in"
+      id="skills"
+      className="p-2 pb-3 -mt-4 sm:mb-16 lg:mb-12 sm:mt-1">
       <h2
         className={`text-3xl uppercase text-center transition-all duration-500 ${
           darkMode ? "text-pink-500" : "text-gray-700"

@@ -6,6 +6,9 @@ import Header from "./components/Header";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 export const ThemeContext = React.createContext();
 
 function App() {
@@ -14,6 +17,16 @@ function App() {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
+
+  useEffect(() => {
+    Aos.init({
+      offset: 200,
+      duration: 800,
+      easing: "ease-out-quad",
+      once: true,
+      delay: 100,
+    });
+  }, []);
 
   useLayoutEffect(() => {
     const mode = localStorage.getItem("gvk_portfolio_theme_mode");

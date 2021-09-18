@@ -2,11 +2,17 @@ import { useContext } from "react";
 import { ThemeContext } from "../App";
 import venkat from "./venkat.jpg";
 
+import "aos/dist/aos.css";
+
 const AboutMe = () => {
   const { darkMode } = useContext(ThemeContext);
 
   return (
-    <section id="about-me" className="p-2 md:p-10">
+    <section
+      id="about-me"
+      className="p-2 md:p-10"
+      data-aos="fade-left"
+      data-aos-delay="300">
       <h2
         className={`text-center text-3xl mt-7 sm:mt-10 lg:mt-5 transition-all duration-500 ${
           darkMode ? "text-pink-500" : "text-gray-700"
