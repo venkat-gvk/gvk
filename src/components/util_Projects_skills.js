@@ -63,8 +63,8 @@ export const languages = [
 ];
 export const technologies = [
   { tech: "React JS", level: "83.333333" },
-  { tech: "Node JS", level: "75" },
+  // { tech: "Node JS", level: "75" },
   { tech: "Tailwind CSS", level: "83.333333" },
-  { tech: "Selenium", level: "66.666667" },
-  { tech: "MongoDB", level: "66.666667" },
+  // { tech: "Selenium", level: "66.666667" },
+  // { tech: "MongoDB", level: "66.666667" },
 ];
