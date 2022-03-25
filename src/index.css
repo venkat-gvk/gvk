@@ -6,15 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* test */
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  /* font-family: -apple-system, BlinkMacSystemFont, "Nunito Sans", "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif; */
-
   font-family: "Montserrat", "Nunito Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
