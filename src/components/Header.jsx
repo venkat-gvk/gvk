@@ -17,7 +17,7 @@ const Header = () => {
       {/* Mobile version */}
       <main
         className="h-32 flex items-center justify-center space-x-5 sm:space-x-8 
-        sm:order-1 sm:space-x-32">
+        sm:order-1">
         <div className="flex flex-col items-center justify-between space-y-4 sm:hidden">
           <h2
             className={`${
