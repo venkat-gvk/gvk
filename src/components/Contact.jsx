@@ -3,7 +3,6 @@ import { ThemeContext } from "../App";
 import { send } from "emailjs-com";
 import { v4 as uuidv4 } from "uuid";
 
-
 import "aos/dist/aos.css";
 
 const Contact = () => {
@@ -59,7 +58,8 @@ const Contact = () => {
       <h2
         className={`text-3xl uppercase text-center sm:mt-4 transition-all duration-500 ${
           darkMode ? "text-pink-500" : "text-gray-700"
-        }`}>
+        }`}
+      >
         Contact
       </h2>{" "}
       <div
@@ -69,18 +69,22 @@ const Contact = () => {
             : "border-blue-500 shadow"
         } mx-auto mt-10 p-4 rounded border-t-2 border-b-2 w-72
          sm:w-11/12 md:w-85p
-        `}>
+        `}
+      >
         <form
           onSubmit={onSubmit}
-          className="flex flex-col justify-center items-center space-y-8 md:mx-auto">
+          className="flex flex-col justify-center items-center space-y-8 md:mx-auto"
+        >
           <div
             className={`${didSend && "opacity-50"} transition-all duration-500 
               sm:w-11/12 md:w-full md:text-center md:relative sm:mt-2
-            `}>
+            `}
+          >
             <label
               htmlFor="name"
               className=" 
-                md:text-left md:absolute md:left-16 lg:left-22">
+                md:text-left md:absolute md:left-16 lg:left-22"
+            >
               Name
             </label>{" "}
             <br />
@@ -98,11 +102,13 @@ const Contact = () => {
           <div
             className={`${
               didSend && "opacity-50"
-            } sm:w-11/12 transition-all duration-500 md:w-full md:text-center md:relative`}>
+            } sm:w-11/12 transition-all duration-500 md:w-full md:text-center md:relative`}
+          >
             <label
               htmlFor="email_id"
               className=" 
-              md:text-left md:absolute md:left-16 lg:left-22">
+              md:text-left md:absolute md:left-16 lg:left-22"
+            >
               Email
             </label>{" "}
             <br />
@@ -121,11 +127,13 @@ const Contact = () => {
           <div
             className={`${
               didSend && "opacity-50"
-            } sm:w-11/12 transition-all duration-500 md:w-full md:text-center md:relative`}>
+            } sm:w-11/12 transition-all duration-500 md:w-full md:text-center md:relative`}
+          >
             <label
               htmlFor="message"
               className=" 
-                md:text-left md:absolute md:left-16 lg:left-22">
+                md:text-left md:absolute md:left-16 lg:left-22"
+            >
               Message
             </label>{" "}
             <br />
@@ -146,7 +154,8 @@ const Contact = () => {
                 className="pt-4 pb-4 bg-gray-50 w-72 text-black h-20 rounded font-semibold flex flex-col justify-center
                 items-center space-y-3 transition-all
                 md:w-96
-                ">
+                "
+              >
                 <p>Thank you, I will contact you shortly.</p>
                 <button
                   className={`
@@ -158,7 +167,8 @@ const Contact = () => {
                 transition-all rounded-full transform duration-500 md:w-36 md:p-1
                 hover:duration-300 hover:shadow-md
               `}
-                  onClick={handleDidSend}>
+                  onClick={handleDidSend}
+                >
                   close
                 </button>
               </div>
@@ -174,7 +184,8 @@ const Contact = () => {
                 hover:duration-300 hover:shadow-md
                 md:w-48
               `}
-                submit="submit">
+                submit="submit"
+              >
                 Submit
               </button>
             )}

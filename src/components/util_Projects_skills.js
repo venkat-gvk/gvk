@@ -57,7 +57,7 @@ export const projects = [
 export const languages = [
   { lang: "C", level: "91.666667" },
   { lang: "C++", level: "83.333333" },
-  { lang: "Java", level: "66.666667" },
+  // { lang: "Java", level: "66.666667" },
   { lang: "JavaScript", level: "75" },
   { lang: "Python", level: "66.666667" },
 ];
