@@ -6,8 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* testing */
-
 html {
   scroll-behavior: smooth;
 }
