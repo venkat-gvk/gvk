@@ -39,8 +39,6 @@ const Contact = () => {
     e.preventDefault();
     setDidSend(!didSend);
 
-    console.log(process.env.REACT_APP_SERVICE_ID);
-
     emailjs
       .send(
         process.env.REACT_APP_SERVICE_ID,
