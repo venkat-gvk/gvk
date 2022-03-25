@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/gvk/static/css/main.3d57c761.css",
-    "main.js": "/gvk/static/js/main.cbe27f0e.js",
+    "main.js": "/gvk/static/js/main.60abeac4.js",
     "static/js/787.2108ed87.chunk.js": "/gvk/static/js/787.2108ed87.chunk.js",
     "static/media/venkat.jpg": "/gvk/static/media/venkat.b82b623d721c06cbc80d.jpg",
     "index.html": "/gvk/index.html",
     "main.3d57c761.css.map": "/gvk/static/css/main.3d57c761.css.map",
-    "main.cbe27f0e.js.map": "/gvk/static/js/main.cbe27f0e.js.map",
+    "main.60abeac4.js.map": "/gvk/static/js/main.60abeac4.js.map",
     "787.2108ed87.chunk.js.map": "/gvk/static/js/787.2108ed87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d57c761.css",
-    "static/js/main.cbe27f0e.js"
+    "static/js/main.60abeac4.js"
   ]
 }
