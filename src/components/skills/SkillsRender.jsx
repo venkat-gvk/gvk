@@ -5,8 +5,6 @@ import { languages, technologies } from "../util_Projects_skills";
 const SkillsRender = ({ what }) => {
   const { darkMode } = useContext(ThemeContext);
 
-  const s = `${darkMode ? "bg-pink-500" : "bg-blue-400"} transition-all`;
-
   return (
     <div>
       {what === "lang"

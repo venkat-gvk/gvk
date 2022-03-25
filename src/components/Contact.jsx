@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { ThemeContext } from "../App";
-import { send } from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { v4 as uuidv4 } from "uuid";
 
 import "aos/dist/aos.css";
@@ -38,12 +38,18 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     setDidSend(!didSend);
-    send(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID,
-      details,
-      process.env.REACT_APP_USER_ID
-    ).catch((err) => console.error(err));
+
+    console.log(process.env.REACT_APP_SERVICE_ID);
+
+    emailjs
+      .send(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        details,
+        process.env.REACT_APP_USER_ID
+      )
+      .catch((err) => console.error(err));
+
     setDetails(detailObj);
   };
 
