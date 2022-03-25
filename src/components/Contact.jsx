@@ -53,7 +53,7 @@ const Contact = () => {
                  darkMode
                    ? "focus:border-pink-500 bg-gray-100"
                    : "focus:border-blue-500"
-               } w-60 md:w-72 text-sm text-black font-semibold sm:text-md`;
+               } w-60 text-sm text-black font-semibold sm:text-md`;
   return (
     <section className="p-2 pb-3 md:mb-5" id="contact" data-aos="fade-right">
       <h2
